@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunnerJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <th>
+                <h1>RunnerJS</h1>
+            </th>
+            <th>
+                <h1>Résultat :</h1>
+            </th>
+        </thead>
+        <tr>
+            <td>
+                <section id="zoneJS" class="zoneJS">
+                    <textarea name="code" id="code" rows="35" onkeyup="execute();" class="code"></textarea>
+                </section>
+            </td>
+            <td>
+                <section id="result" class="result">
+                </section>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <section class="zoneJS">
+                    <textarea id="codeJS" rows="35" onkeyup="executeJS();" class="code"></textarea>
+                </section>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<script src="script.js"></script> 
